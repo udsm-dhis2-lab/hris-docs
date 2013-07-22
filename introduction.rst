@@ -10,6 +10,8 @@ Introduction
 Introduction
 ==============
 
+.. image:: _static/coat_of_arms_of_Tz.svg
+
 The Ministry of Health and Social Welfare (MOHSW) has developed the Human Resource for
 Health Information System in collaboration with the University of Dar es salaam, Department
 of Computer Science. The essence of developing Human Resource for health database is to
