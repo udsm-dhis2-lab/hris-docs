@@ -3,6 +3,8 @@
 ******
 Images
 ******
+.. note::
+   Table Of Contents
 
 .. _login:
 
@@ -140,6 +142,8 @@ Images
 
  **fig 22:  Editing organization unit group details.**
 
+.. _users:
+
  .. _fig23:
  .. figure::  _static/addorggroupset.png
     :align:   center
@@ -157,6 +161,8 @@ Images
     :align:   center
 
  **fig 25: Interface displaying available system users.**
+
+.. _reports:
 
  .. _fig27:
  .. figure::  _static/reports.png
@@ -221,17 +227,13 @@ Images
 
  **fig 36: History and In service Training report.**
 
+.. _import_export:
+
  .. _fig38:
  .. figure::  _static/import.png
     :align:   center
 
  **fig 38: Interface for importing data into the system.**
-
-Export to DHIS
-==============
-
- This functionality will enable you to export data which will then be imported into DHIS. The
- procedures are the same as those in the export described above.
 
  .. _fig39:
  .. figure::  _static/exporttodhis.png
