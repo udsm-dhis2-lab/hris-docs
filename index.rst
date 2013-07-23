@@ -17,6 +17,7 @@ Contents:
    user.rst
    report.rst
    import_export.rst
+   images.rst
 
 
 
