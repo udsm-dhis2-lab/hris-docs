@@ -9,9 +9,11 @@ Welcome to Human Resource Information System's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    introduction.rst
+   login.rst
+   systemDescription.rst
 
 
 
