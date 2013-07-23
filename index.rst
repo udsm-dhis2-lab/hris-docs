@@ -14,6 +14,9 @@ Contents:
    introduction.rst
    login.rst
    systemDescription.rst
+   user.rst
+   report.rst
+   import_export.rst
 
 
 

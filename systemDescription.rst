@@ -238,15 +238,7 @@ Organization Units
 
  The following is the brief description of the icons displayed in front of each organization unit
 
-    ===========
-    icon
-    ===========
-    edit icon
-    -----------
-    delete icon
-    -----------
-    down icon
-    -----------
+    table explaining the editing button
 
  Click on the “edit_image ” option to edit information under a particular organization unit, "down_image" 
  display children under a particular organization unit and “delete_image” to to delete a specific organization unit.
@@ -254,6 +246,52 @@ Organization Units
  to the one shown below will be displayed where you will be required to fill the details and click the
  “Edit” button to commit the changes.
 
+ .. _fig20:
+ .. figure::  _static/editunit.png
+    :align:   center
+
+ **fig 20: Form for editing organization unit details**
+
+Organization Units Groups
+-------------------------
+
+ Related organization units can be grouped together to help with the analysis and use of data. With
+ this option, one can add as many organization units groups as possible. Example of the
+ organization units groups can be hospitals, health centers, dispensaries and others.
+
+ .. _fig21:
+ .. figure::  _static/oragnieunitgroup.png
+    :align:   center
+
+ **fig 21: Interface for displaying organization unit groups**
+
+ You can edit or delete the details under a specific organization unit group by clicking the
+ correct option. Click on the options as the ones shown in the previous section to edit, delete or add
+ new organization unit group. See the following screen shots: This screen shot is the same as the
+ one to be used in the course of creating a new group
+
+ .. _fig22:
+ .. figure::  _static/editorganizationunit.png
+    :align:   center
+
+ **fig 22:  Editing organization unit group details.**
+
+Organization Units Groups Sets
+------------------------------
+
+ OrgUnit Group Sets are meant to group the groups, again, for analysis and use of data. This part of
+ the system is used to create and edit organization unit group sets. The procedure and interfaces
+ used are as shown in the figure below:
+
+ .. _fig23:
+ .. figure::  _static/addorggroupset.png
+    :align:   center
+
+ **fig 23: Creating new organization unit group set.**
+
+ Enter the group set name then select appropriate group set members on the left; Using the → or
+ ← add or remove the group set member to/from the box displayed on the right hand side. Having
+ selected the group set members click the “Add” button to submit the group set to the system.
 
 
 
