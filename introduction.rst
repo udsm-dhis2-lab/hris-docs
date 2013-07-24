@@ -5,12 +5,7 @@
 Introduction
 ***************
 
-.. _introduction:
-
-Introduction
-==============
-
-.. image:: _static/coat_of_arms_of_Tz.svg
+.. image:: _static/logo.png
    :align:  center
 
 The Ministry of Health and Social Welfare (MOHSW) has developed the Human Resource for

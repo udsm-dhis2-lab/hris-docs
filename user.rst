@@ -21,7 +21,7 @@ System Roles
  .. figure::  _static/edituserrole.png
     :align:   center
 
- **fig 23: Interface for editing user role.**
+ .. centered:: **fig 23: Interface for editing user role.**
 
  It starts with the kind of forms which a person can access in the system. Use the left ← and → right
  arrows to move what you want to. The list below consists of the functionalities that one is allowed to
@@ -38,7 +38,7 @@ System Users
  .. figure::  _static/availableuser.png
     :align:   center
 
- **fig 24: Interface displaying available system users.**
+ .. centered:: **fig 24: Interface displaying available system users.**
 
  Using options available on the interface you can add new users, edit user details or delete a specific
  user from the system.
