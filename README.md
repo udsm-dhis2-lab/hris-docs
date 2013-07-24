@@ -7,7 +7,6 @@ This documentation is rendered online at https://hris.readthedocs.org/
 HRIS Documentation is licensed under GNU General Public Licence, either version 2
 of the licence or at your option any later version.
 
-
 ##Contributing
 ---------------
 Documentation is as important as code. It follows the exact same principles:

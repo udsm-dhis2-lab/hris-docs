@@ -4,14 +4,15 @@
 {% block rootrellink %}
         <li><a href="{{ pathto('index') }}">home</a>|&nbsp;</li>
         <li><a href="{{ pathto('search') }}">search</a>|&nbsp;</li>
+        <li><a href="http://hrhis.moh.go.tz/">Project Homepage</a> &raquo;</li>
 {% endblock %}
 
 
 {% block relbar1 %}
 
 <div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
-<a href="{{ pathto('index') }}"><img width="96" height="96" src="{{
-pathto("_static/logo.svg", 1) }}" border="0" alt="py4sci"/></a>
+<center><a href="{{ pathto('index') }}"><img width="96" height="96" src="{{
+pathto("_static/logo.png", 1) }}" border="0" alt="py4sci"/></a></center>
 </div>
 {{ super() }}
 {% endblock %}

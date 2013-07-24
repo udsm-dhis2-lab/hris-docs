@@ -21,7 +21,7 @@ Fields
 .. figure::  _static/fields.png
    :align:   center
 
-**fig 4: Fields Interface**
+.. centered:: **fig 4: Fields Interface**
 
 This part of the system is used to add, edit and delete database fields which are used to
 hold data supplied by the user. Examples of the fields include fname (stands for first
@@ -43,7 +43,7 @@ The interface displayed after clicking the form option looks as follows:
 .. figure::  _static/forms.png
    :align:   center
 
-**fig 5: Interface for editing the form and adding details**
+.. centered:: **fig 5: Interface for editing the form and adding details**
 
 It displays a list of forms already added into the system. On the right hand side of each
 form are the options to edit form details, design the form and assign it the fields you want
@@ -53,7 +53,7 @@ and the delete option. On clicking edit, the following screen appears
 .. figure::  _static/formediting.png
    :align:   center
 
-**fig 6: Interface for editing the form and adding details**
+.. centered:: **fig 6: Interface for editing the form and adding details**
 
 Click the specific field on the left to add it on the form. Use → to add a specific field on the form
 and ← to remove the field from the form.
@@ -62,7 +62,7 @@ and ← to remove the field from the form.
 .. figure::  _static/designingaform.png
    :align:   center
 
-**fig 7: Interface for designing the form and assigning it the fields you want.**
+.. centered:: **fig 7: Interface for designing the form and assigning it the fields you want.**
 
 On the second option, design, the above screen should appear. Put the names of the form
 fields you want and for each field assign the database field corresponding to it and then click
@@ -85,7 +85,7 @@ Data Entry
  .. figure::  _static/dataentry.png
     :align:   center
 
- **fig 8: List of form available for entering data.**
+ .. centered:: **fig 8: List of form available for entering data.**
 
  By clicking on a yellow down arrow, the data entry form for populating data will be opened as
  displayed in the figure below.
@@ -96,7 +96,7 @@ Data Entry
  .. figure::  _static/formfordataentry.png
     :align:   center
 
- **fig 9: Form ready for data entry.**
+ .. centered:: **fig 9: Form ready for data entry.**
 
  Fill the form with the appropriate data then click on the “Save Data” button to submit data to the
  database. There are a few things to notice, though.
@@ -109,7 +109,7 @@ Data Entry
  .. figure::  _static/afieldmessage.png
     :align:   center
 
- **fig 10: A message to describe the data field**
+ .. centered:: **fig 10: A message to describe the data field**
 
 Records
 =======
@@ -122,7 +122,7 @@ Records
  .. figure::  _static/records.png
     :align:   center
 
- **fig 11: View records options**
+ .. centered:: **fig 11: View records options**
 
  If you select search records, the lens‐like button, the system will provide you with a text box to
  enter your search key. The records can be searched using and of the available fields, for instance
@@ -132,7 +132,7 @@ Records
  .. figure::  _static/viewrecord.png
     :align:   center
 
- **fig 12: Search record option**
+ .. centered:: **fig 12: Search record option**
 
  On the other hand if View all records options is selected, the system will output all records that has
  already been entered into the database. This is a representation of raw data only.
@@ -141,7 +141,7 @@ Records
  .. figure::  _static/recordhistory.png
     :align:   center
 
- **fig 13: A list of records in the system**
+ .. centered:: **fig 13: A list of records in the system**
 
  At the end of each record row, there
  two options: (Edit Record), in case you need to
@@ -163,7 +163,7 @@ History Management
  .. figure::  _static/historymanagement.png
     :align:   center
 
- **fig 14: History Information of a record**
+ .. centered:: **fig 14: History Information of a record**
 
  If **Add History** is selected, a form for adding record’s history will be opened, for you to
  add history.
@@ -172,7 +172,7 @@ History Management
  .. figure::  _static/addhistory.png
     :align:   center
 
- **fig 15: Add History**
+ .. centered:: **fig 15: Add History**
 
  In the **history type** one selects whether it is a history related to “Education Level” (if a staff has just
  completed some studies or “Terms of Employment” (for example from volunteering to contractual). It
@@ -194,7 +194,7 @@ In Service Training Management
  .. figure::  _static/inservicemanagement.png
     :align:   center
 
- **fig 16: In service training information of a record**
+ .. centered:: **fig 16: In service training information of a record**
 
  As in history management, there is a button for add new, which leads to the recording of these in
  service training. The following is the interface after “add new”.
@@ -203,7 +203,7 @@ In Service Training Management
  .. figure::  _static/addtraining.png
     :align:   center
 
- **fig 17: In service training information of a record**
+ .. centered:: **fig 17: In service training information of a record**
 
 Organization Units Management
 =============================
@@ -225,7 +225,7 @@ Organization Units
  .. figure::  _static/organizationunit.png
     :align:   center
 
- **fig 18: Interface to display Organization Units.**
+ .. centered:: **fig 18: Interface to display Organization Units.**
 
  If you opt for the down arrow then they get the children of that particular organization unit. In the
  above case, the following will appear
@@ -234,7 +234,7 @@ Organization Units
  .. figure::  _static/manageunits.png
     :align:   center
 
- **fig 19:Interface for the MOHSW Children**
+ .. centered:: **fig 19:Interface for the MOHSW Children**
 
  The following is the brief description of the icons displayed in front of each organization unit
 
@@ -250,7 +250,7 @@ Organization Units
  .. figure::  _static/editunit.png
     :align:   center
 
- **fig 20: Form for editing organization unit details**
+ .. centered:: **fig 20: Form for editing organization unit details**
 
 Organization Units Groups
 -------------------------
@@ -263,7 +263,7 @@ Organization Units Groups
  .. figure::  _static/oragnieunitgroup.png
     :align:   center
 
- **fig 21: Interface for displaying organization unit groups**
+ .. centered:: **fig 21: Interface for displaying organization unit groups**
 
  You can edit or delete the details under a specific organization unit group by clicking the
  correct option. Click on the options as the ones shown in the previous section to edit, delete or add
@@ -274,7 +274,7 @@ Organization Units Groups
  .. figure::  _static/editorganizationunit.png
     :align:   center
 
- **fig 22:  Editing organization unit group details.**
+ .. centered:: **fig 22:  Editing organization unit group details.**
 
 Organization Units Groups Sets
 ------------------------------
@@ -287,7 +287,7 @@ Organization Units Groups Sets
  .. figure::  _static/addorggroupset.png
     :align:   center
 
- **fig 23: Creating new organization unit group set.**
+ .. centered:: **fig 23: Creating new organization unit group set.**
 
  Enter the group set name then select appropriate group set members on the left; Using the → or
  ← add or remove the group set member to/from the box displayed on the right hand side. Having

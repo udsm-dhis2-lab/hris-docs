@@ -18,7 +18,7 @@ Records Reports
  .. figure::  _static/reports.png
     :align:   center
 
- **fig 27: Record Report Generation.**
+ .. centered:: **fig 27: Record Report Generation.**
 
  There are only two items to select from, where the report is for – the **organization unit** and what
  kind of data to be included – the **form**. These will provide us with the raw data of the records we
@@ -36,7 +36,7 @@ Records Reports
  .. figure::  _static/recordreport.png
     :align:   center
 
- **fig 28: An example of Record Report.**
+ .. centered:: **fig 28: An example of Record Report.**
 
  When the report has been generated, “**Export to EXCEL**” option, found at the lower left corner of
  the screen will enable you to export your report to excel sheet (spreadsheet) for further personal
@@ -45,7 +45,7 @@ Records Reports
  .. image::  _static/exporttoexcl.png
     :align:  center
 
- **fig 29: Export to Spreadsheet Buttons.**
+ .. centered:: **fig 29: Export to Spreadsheet Buttons.**
 
  Click it and see the results – the spreadsheet
 
@@ -57,7 +57,7 @@ Records Reports
  .. figure::  _static/generatedexcl.png
     :align:  center
 
- **fig 30: An example of Record Report.**
+ .. centered:: **fig 30: An example of Record Report.**
 
 Aggregated Reports
 ==================
@@ -73,7 +73,7 @@ Aggregated Reports
  .. figure::  _static/aggrreport.png
     :align:  center
 
- **fig 31: Generating aggregated report.**
+ .. centered:: **fig 31: Generating aggregated report.**
 
  The aggregated data, in this new release gives the user more ways to explore the data that are in the
  system already. It needs a user to specify the organization nit they want the report for, select the form
@@ -84,28 +84,28 @@ Aggregated Reports
  .. figure::  _static/aggrreport1.png
     :align:  center
 
- **fig 32: An aggregated report (field one: age distribution, field two: sex).**
+ .. centered:: **fig 32: An aggregated report (field one: age distribution, field two: sex).**
 
  
  .. _fig33:
  .. figure::  _static/aggrreport2.png
     :align:  center
 
- **fig 33: An aggregated report (field one: employment distribution, field two: sex).**
+ .. centered:: **fig 33: An aggregated report (field one: employment distribution, field two: sex).**
 
 
  .. _fig34:
  .. figure::  _static/aggrreport3.png
     :align:  center
 
- **fig 34: An aggregated report (field one: Retirement distribution, field two: sex).**
+ .. centered:: **fig 34: An aggregated report (field one: Retirement distribution, field two: sex).**
 
  
  .. _fig35:
  .. figure::  _static/aggrreport4.png
     :align:  center
 
- **fig 35: An aggregated report (Single field: Employment distribution).**
+ .. centered:: **fig 35: An aggregated report (Single field: Employment distribution).**
 
 Other reports
 =============
@@ -121,7 +121,7 @@ Other reports
  .. figure::  _static/historyintraining.png
     :align:  center
 
- **fig 36: History and In service Training report.**
+ .. centered:: **fig 36: History and In service Training report.**
 
 
 
