@@ -1,146 +1,122 @@
 .. installation:
 
-********************
-Installation Manual
-********************
+*****************
+Installing Manual
+*****************
 
-**Eclipse Plugins:**
+Installing Hris Software
+=======================
 
-Yedit ( Eclipse plugin for YAML Files - http://code.google.com/p/yedit/)
-	update site: http://dadacoalition.org/yedit
-Symfony Eclipse Plugin ( https://github.com/pulse00/Symfony-2-Eclipse-Plugin )
-	update site: http://p2.dubture.com
+**PHP5-INTL Dependency**
 
+    On Systems running Linux Operating systems run::
 
-**Configurations:**
+      sudo apt-get install php5-intl
 
-    * Setting Date time Zone
-	- Set date time zone inside php.ini to:
+    On Systems running Mac OSX Operating systems run::
 
-	- date.timezone = 'Africa/Dar_es_Salaam'
+      brew install icu4c
 
-    * Turn off short_open_tag
-	- Disable detection of PHP codes between <? and ?> for better PHP >=5.3 Experience
+    **Download system source codes from our** `github repository <https://github.com/hrisproject/hris>`_ - https://github.com/hrisproject/hris::
 
-	- Set it inside php.ini to: short_open_tag = Off
+        git clone git@github.com:hrisproject/hris.git
+        
+    Install composer inside project directory - hris Note: hris now comes with composer pre-installed::
 
-    * Give Web readwrite access to cache and log directory in your SymfonyProject
-	- To enjoy both user and web read-write access in linux use the following commands:
-		cd SymfonyProject/
+        curl -s https://getcomposer.org/installer | php
 
-		rm -rf app/cache/*
+    .. note:: 
 
-		rm -rf app/logs/*
+       If you don't have curl, install composer with this script php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));"
 
-	- On Systems supporting chmod +a
-		sudo chmod +a "www-data allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+    Update your repository with latest dependecies::
 
-		sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+        php composer.phar install
 
-	- On Systems that don't support chmod +a
-		sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+        php composer.phar update
 
-		sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+    Symbolic Link your web directory to the webroot directory::
 
-	- On Systems that doesn't support either
-		sudo chown youruseraccount:www-data cache/ logs/ config/parameters.yml -R
+        ln -s ${PWD}/web/ /var/www/hris     #Assuming your current directory(PWD) is inside hris project and your webroot is on /var/www/
 
-    * Database Configurations
-	- HRHIS Makes use of postgres set the configurations accordingly
+    Set date time zone inside php.ini to your location,change line date.timezone to your locale, e.g in `Dar-es-salaam, Tanzania`::
 
-		+ Driver: PostgreSQL(PDO) "pdo_pgsql"
+        date.timezone = 'Africa/Dar_es_Salaam'
 
-		+ Username: databaseusername "hris"
+    Turn off short_open_tag inside php.ini to disable detection of PHP codes between <? and ?> for better PHP >=5.3 Experience::
 
-		+ Password: userpassword "hris"
- 
-		+ Database: databasename "hris"
+        short_open_tag = Off
 
-		+ Host: serveraddress "localhost"
+    Give Web readwrite access to cache and log directory in your hris directory. To enjoy both user and web read-write access in linux use the following commands::
 
-		+ Post: defaultpostgresport "5432"
+        rm -rf app/cache/*
 
-    * Save Global secret key:
-	- 4a4c7ff139bd79e577eebc95ead5310b7
+        rm -rf app/logs/*
 
+    On Systems supporting chmod +a(e.g. Mac), you can give readwrite permission via::
 
-**Developers Section**
+        sudo chmod +a "www-data allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
 
-    * Help on console commands
-	app/console help
+        sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
 
-	app/console list   #List all commands offered by console
+    On Systems that don't support chmod +a(e.g. Linux), you can give readwrite permission via::
 
-	app/console --list #List all commands offered by console
+        sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
 
-    * Create a bundle
-	app/console generate:bundle
+        sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
 
-    * Management of assets on deployment
-	Updating symbolic links to bundle assets
-             php app/console assets:install --symlink web #Creates symbolic links to package assets
+Database Setup
+==============
 
-	Using assetic to generate static urls
-             php app/console assetic:dump --env=prod --no-debug  #To generate assets static urls
+`System source code can be downloaded from github <https://github.com/hrisproject/hris>`_
 
-    * Clearing web server cache
-	php app/console cache:clear --env=prod --no-debug
+    Configuration file can be found from hris/app/config/parameters.yml
 
-	php app/console cache:clear --env=dev --no-warmup
+**Parameters.yml**::
 
-    * Updating project package dependecies with composer.phar
-	- Update composer itself:
-		php composer.phar self-update
+        database_driver: pdo_pgsql
+        database_host: %databasehost%
+        database_port: %portnumber%
+        database_name: %databasename%
+        database_user: %databaseuser%
+        database_password: %userpassowrd%
+        mailer_transport: smtp
+        mailer_host: %mailerhost%
+        mailer_user: null
+        mailer_password: null
+        locale: en
+        secret: %secret_generated_key%
+        database_path: null
 
-	- Update dependencies:
-		php composer.phar update
+**Generating database**::
 
-	- Updating single repository:
-		php composer.phar update friendsofsymfony/user-bundle
+        app/console doctrine:database:drop --force      #Drops Database if it exist
+        app/console doctrine:database:create            #Creates Fresh new database
+        app/console doctrine:schema:update --force      #Updates Database schema
+        app/console list                                #List all commands offered
 
-    * Generating doctrine entity
-	php app/console doctrine:generate:entity
+**Creating, Activating,Changing password, deactivate, demote & promote login-user from commandline**::
 
-    * Checking existing routes in the project
-	php app/console router:debug
+        app/console fos:user:create                     #Create User account
+        app/console fos:user:activate                   #Activate a user
+        app/console fos:user:change-password            #Change the password of a user.
+        app/console fos:user:create                     #Create a user.
+        app/console fos:user:deactivate                 #Deactivate a user
+        app/console fos:user:demote                     #Demote a user by removing a role
+        app/console fos:user:promote                    #Promotes a user by adding a role
 
-    * Listing schema updates/changes
-	php app/console doctrine:schema:update --dump-sql
+**Regenerating assets**::
 
-    * Applying schema updates/changes
-	php app/console doctrine:schema:update --force
+        app/console assetic:dump
+        php app/console assets:install web
 
-    * Creating user account using fos user bundle commands
-	php app/console fos:user:create
+**Shell Console**::
 
-    * Promote user's roles using fos user bundle commands
-	- php app/console for\:user\:promote	#Roles must start with ``ROLE_`` prefix
+        app/console --shell
 
-	- Documentation on FixturesBundle
-		http://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html
+Performance tuning
+==================
 
-	- Documentation on Database Migrations
-		http://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html
+::
 
-	- Documentation on Framework Extra Bundle
-		https://github.com/sensio/SensioFrameworkExtraBundle/tree/master/Resources/doc
-
-	- Documentation on JMS Security Extra bundle
-		http://jmsyst.com/bundles/JMSSecurityExtraBundle/1.2
-
-**Sonata Dependencies**
-
-    * Exporter
-	https://github.com/sonata-project/exporter
-
-    * Knp Menu Bundle
-	https://github.com/KnpLabs/KnpMenuBundle
-
-    * Sonata Cache Bundle
-	https://github.com/sonata-project/SonataCacheBundle
-
-    * Sonata Block Bundle
-	https://github.com/sonata-project/SonataBlockBundle
-
-    * Sonata JQuery Bundle
-	https://github.com/sonata-project/SonatajQueryBundle
+        File php.ini can be used to tweak performance of the system 
