@@ -2,8 +2,8 @@
    sphinx-quickstart on Mon Jul 22 19:07:09 2013.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-
-.. centered:: Welcome to Human Resource Information System's documentation!
+Welcome to Human Resource Information System's documentation!
+=============================================================
 
 
 
@@ -16,16 +16,13 @@ Get started fast with the **HRHIS**
        :maxdepth: 3
        :numbered:
 
-       What is HRHIS<introduction>
-   
-       About login<login>
-
-       Existing modules<modules>
+       Getting started<getstarted>
 
 
 Installation
 ============
-    
+  
+Notes on Installation of **HRHIS**  
     .. toctree::
        :maxdepth: 3
        :numbered:

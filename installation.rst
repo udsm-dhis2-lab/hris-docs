@@ -1,9 +1,5 @@
 .. installation:
 
-*****************
-Installing Manual
-*****************
-
 Installing Hris Software
 =======================
 
