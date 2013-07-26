@@ -25,8 +25,12 @@ Get started fast with the **HRHIS**
 
 Installation
 ============
+    
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
 
-    Steps to download and install hris
+       Notes on Installation of HRHIS<installation>
 
 User Manual
 ===========
