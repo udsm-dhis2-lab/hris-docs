@@ -10,7 +10,7 @@ Welcome to Human Resource Information System's documentation!
 Quick Tour
 ==========
 
-Get started fast with the **HRHIS** 
+Get started fast with the **HRIS** 
 
     .. toctree::
        :maxdepth: 3
@@ -22,12 +22,12 @@ Get started fast with the **HRHIS**
 Installation
 ============
   
-Notes on Installation of **HRHIS**  
+Notes on Installation of **HRIS**  
     .. toctree::
        :maxdepth: 3
        :numbered:
 
-       Notes on Installation of HRHIS<installation>
+       Notes on Installation of HRIS<installation>
 
 User Manual
 ===========
@@ -36,9 +36,9 @@ User Manual
        :maxdepth: 3
        :numbered:
 
-       What is HRHIS<introduction>
+       What is HRIS<introduction>
 
-       Getting Started With HRHIS<getstarted>
+       Getting Started With HRIS<getstarted>
 
        System Description<systemDescription>
 
@@ -54,7 +54,7 @@ Administrators Manual
        :maxdepth: 3
        :numbered:
 
-       What is HRHIS<introduction>
+       What is HRIS<introduction>
 
        User Administration<user>
 
@@ -93,21 +93,14 @@ References
 HRIS Best Practices
 ===================
 
-     Recommendations for deployment and implementation
+  	.. toctree::
+  	   :maxdepth: 3
+  	   :numbered:
 
-        database development
 
-        co-ordinating and managing existing databases with hris
+	   Recommendations for Deployment and Implementation<hrisBestPractices>
 
-        intergration with other systems
-
-        best pilot approach
-
-        Trainings
-
-        Rollout
-
-        Needed resources throughout rollout
+        
 
 Indices and tables
 ==================
