@@ -28,9 +28,9 @@ import os
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo']
 
-extensions = ['rst2pdf.pdfbuilder']
+#extensions = ['rst2pdf.pdfbuilder']
 
-pdf_documents = [('index', u'HRHIS documentation', u'Welcome to Human Resource Information System\'s documentation!', u'Your Name'),]
+#pdf_documents = [('index', u'HRHIS documentation', u'Welcome to Human Resource Information System\'s documentation!', u'HRIS documentation team'),]
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
