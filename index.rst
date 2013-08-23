@@ -5,7 +5,7 @@
 Welcome to Human Resource Information System's documentation!
 =============================================================
 
-
+.. index:: Table of content
 
 Quick Tour
 ==========

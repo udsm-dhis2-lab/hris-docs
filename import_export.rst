@@ -8,6 +8,7 @@ This system functionality enables you to either export data already in your syst
 another location using HRHIS (or other systems communicating with HRHIS) can import them, or
 import data from other systems into HRHIS
 
+.. index:: Exporting data
 Export
 ======
 
@@ -21,6 +22,8 @@ Export
 
  **fig 37: Exporting HRHIS Data.**
 
+.. index:: Importing Data
+
 Import
 ======
 
@@ -33,6 +36,8 @@ Import
     :align:   center
 
  **fig 38: Interface for importing data into the system.**
+
+.. index:: Export to DHIS
 
 Export to DHIS
 ==============

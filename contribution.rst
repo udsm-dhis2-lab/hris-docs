@@ -1,7 +1,11 @@
 .. contribution:
 
+.. index:: Python Contribute to Software Source Codes
+
 Contribute to Software Source Codes
 ===================================
+
+
 
 Code
 ****
@@ -34,6 +38,7 @@ Reporting a Security Issue
            While we are working on a patch, please do not reveal the issue publicly.
 		
 
+.. index:: Contribute to Documentation
 
 Contribute to Documentation
 ===========================
@@ -62,6 +67,8 @@ Contributing
 
         HRIS Documentation uses reStructuredText as its markup language and Sphinx for building the output(HTML,PDF, etc...).
 
+.. index:: reStructuredText
+
 reStructuredText
 ****************
 
@@ -84,6 +91,9 @@ Sphinx
     Quick overview on setting your sphinx up for documentation can be found from `matplotlib website <http://matplotlib.org/sampledoc/>`_,
     a more detailed documentation can be found at `sphnix website <http://sphinx-doc.org/rest.html>`_
     
+    
+.. index:: Testing Documentation
+
 Testing Documentation
 *********************
 
@@ -93,7 +103,9 @@ Testing Documentation
         * Run the Sphinx quick setup;
         * Install the Sphinx extensions (see below);
         * Run make html and view the generated HTML in the build directory.
-        
+    
+.. index:: Installing the Sphinx extensions
+
 Installing the Sphinx extensions
 ********************************
 
@@ -118,6 +130,8 @@ Installing the Sphinx extensions
         # use PHP as the primary domain
         primary_domain = 'php'
         
+.. index:: Generating PDF Using rest2pdf
+
 Generating PDF Using rest2pdf
 *****************************
 
@@ -153,6 +167,9 @@ Generating PDF Using rest2pdf
         sphinx-build -b pdf source build/pdf
 
      The generated pdf will be in the build/pdf directory. 
+     
+.. index:: Financing the Open Source Project
+
 Financing the Open Source Project
 =================================
 

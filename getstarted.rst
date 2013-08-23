@@ -17,6 +17,8 @@ free and open source PHP >= 5.3 Web Frameworks. Among the frameworks Involves
     * PHPUnit Testing Framework for testing overall system behaviors and functions
     * Twig Template Engine for presentation layer
     * Composer Package manager
+    
+.. index:: Why Would you want to choose HRIS
 
 Why Would you want to choose HRIS
 =================================
@@ -38,6 +40,8 @@ Why Would you want to choose HRIS
 
     * Inteoperable Through Web APIs, HRIS can be interoperated by third party applications through the powerful RESTful APIs
 
+.. index:: Introduction to HRIS
+
 Introduction to HRIS
 ====================
 
@@ -51,12 +55,15 @@ Introduction to HRIS
     A rapidly increasing demand for a flexible, faster and user friendly Human Resource Information tool arose a need for
     re-implementation of the software under open source copy-left licence.
 
+.. index:: System Administration
 System Administration
 ---------------------
 
     Users with System administrative priviledge can customize the system to reflect the organisational hierarchy of the company, 
     information to be collected by an organisation, set of validation constraints that collected dat must adhere to, control of 
     access of data and different system parts, and other system customizations that affect the system at large.
+
+.. index:: Accessing the System
 
 Accessing the System
 --------------------
@@ -71,6 +78,7 @@ Managing Employee Records
     System uses Records management module to control collection, human resource information such as personnel 
     particulars, in service training and employee's history.
 
+.. index:: Modules and Features
 Modules and Features
 --------------------
 
@@ -81,6 +89,7 @@ Modules and Features
         * Data Quality Management Creates and manages validation constraints that are used to test and ensure quality data is being collected
         * Records Management Creates and manages collection, storage and retrival of Human resource information in a faster and secure way.
 
+.. index:: Properties of HRIS
 Properties of HRIS
 ------------------
 

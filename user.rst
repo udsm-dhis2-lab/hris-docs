@@ -1,5 +1,7 @@
 .. _user_management:
 
+.. index:: User Administration
+
 *******************
 User Administration
 *******************
@@ -9,6 +11,8 @@ user access relevant data and not otherwise. This part of the system is used to 
 various system access levels and the users who can access those levels. The following section provides
 the way to create these roles and assign each role with what it can access. If one opts for add new, the
 following interface occurs
+
+.. index:: System Roles
 
 System Roles
 ============
@@ -26,6 +30,8 @@ System Roles
  It starts with the kind of forms which a person can access in the system. Use the left ← and → right
  arrows to move what you want to. The list below consists of the functionalities that one is allowed to
  do/perform. Again, use arrows to move whatever you want to use.
+
+.. index:: System Users
 
 System Users
 ============

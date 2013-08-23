@@ -1,4 +1,4 @@
-
+.. index:: Recommendations for Deployment and Implementation
 
 Recommendations for Deployment and Implementation
 =================================================
@@ -23,6 +23,7 @@ Development
 
 	8. `Internationalization <http://simphony.com/doc/current/book/translation.html>`_
 
+.. index:: Eclipse Tricks
 
 Eclipse Tricks
 --------------
@@ -41,22 +42,32 @@ Eclipse Tricks
 	
 	   	http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/
 
+.. index:: Database Development
+
 Database Development
 ====================
 
+.. index:: Co-ordinating and Managing Existing Databases with HRIS
 Co-ordinating and Managing Existing Databases with HRIS
 =======================================================
+
+.. index:: Intergration With Other Systems
 
 Intergration With Other Systems
 ===============================
 	The HRIS has been integrated with the District Health Information System (DHIS) and is in the process of being integrated with TIIS.
 
+.. index:: Best Pilot Approach
+
 Best Pilot Approach
 ===================
+
 
 Trainings
 =========
 	
+.. index:: Data Utilization Trainings (DUTs)
+
 Data Utilization Trainings (DUTs)
 ---------------------------------
 	
@@ -73,13 +84,19 @@ Training Modality
 *****************
 	Data utilization trainings are conducted collaboratively between UDSM, MoHSW/JICA and Intersoft. UDSM is involved in making sure 		the mobile computer laboratory is set where the trainings are organized; stationeries are made available for trainings; and system 		support is given in the cause of the training. Depending on the number of attendants, sometimes it is necessary for UDSM to provide 		one or two experts per session.
 
+.. index:: Challenges encounter during DUTs
+
 Challenges encounter during DUTs
 ********************************
 	Challenges encountered during the DUTs include the number of the Training Laptops not being enoungh in some of the sessions, Venue 		problems, punctuality of the training attendants leading to training starting time delays and limited time for hands on sessions, 		Computer Literacy of the training Participants, POwer Cut-off, some of the required participants sending  representatives who were 		new to the system leading to delays as some of the time had to be used to introduce them to the System before conductind the DUT to 		them, another challenge was the number of the participants being larger than that expected thus leading to the division of the 		training sessions into two and the extension of the the training period.
 	 
-		
+
+.. index:: Rollout
+
 Rollout
 =======
+
+.. index:: Needed Resources Throughout Rollout
 
 Needed Resources Throughout Rollout
 ===================================

@@ -11,6 +11,8 @@ required records as specified by the user. Another type of report is “**Aggreg
 outputs the required aggregated data as specified by user. The third is a group of reports just called
 “**other reports**”
 
+.. index:: Records Reports
+
 Records Reports
 ===============
 
@@ -59,6 +61,8 @@ Records Reports
 
  .. centered:: **fig 30: An example of Record Report.**
 
+.. index:: Aggregated Reports
+
 Aggregated Reports
 ==================
 
@@ -106,6 +110,8 @@ Aggregated Reports
     :align:  center
 
  .. centered:: **fig 35: An aggregated report (Single field: Employment distribution).**
+
+.. index:: Other reports
 
 Other reports
 =============

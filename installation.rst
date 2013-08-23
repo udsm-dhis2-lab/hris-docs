@@ -1,6 +1,8 @@
 .. installation:
 
-Installing Hris Software
+.. index:: Installing HRIS Software
+
+Installing HRIS Software
 =======================
 
 **PHP5-INTL Dependency**
@@ -61,6 +63,8 @@ Installing Hris Software
 
         sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
 
+.. index:: Database Setup
+
 Database Setup
 ==============
 
@@ -109,6 +113,8 @@ Database Setup
 **Shell Console**::
 
         app/console --shell
+
+.. index:: Performance tuning
 
 Performance tuning
 ==================

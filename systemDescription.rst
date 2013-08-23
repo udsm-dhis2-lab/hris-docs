@@ -1,10 +1,14 @@
 .. _systemdescription:
 
+.. index:: System Description
+
 *************************
 Description Of The System
 *************************
 
 The main menu displayed upon successful login has the| following:
+
+.. index:: Form Management
 
 ===============
 Form Management
@@ -68,6 +72,8 @@ On the second option, design, the above screen should appear. Put the names of t
 fields you want and for each field assign the database field corresponding to it and then click
 on the “Save Form” button to save the form. At any point during the design of the form,
 clicking the “Reset” button should instigate clearing.
+ 
+.. index:: Data management
 
 ===============
 Data management
@@ -75,6 +81,8 @@ Data management
 
 This is the part where every day uses of the system depend. It contains the functionalities
 which involve the regular management and use of Human Resource data.
+
+.. index:: Data Entry
 
 Data Entry
 ==========
@@ -110,6 +118,8 @@ Data Entry
     :align:   center
 
  .. centered:: **fig 10: A message to describe the data field**
+
+.. index:: Records Managemenent
 
 Records
 =======
@@ -151,6 +161,8 @@ Records
  Another option is next section.
  which stands for Record’s History Management. This is discussed in the
 
+.. index:: History Management
+
 History Management
 ==================
 
@@ -181,6 +193,8 @@ History Management
  After filling in the record, one has to select the “keep this as current record” check box. This will
  change the record of an individual to include the just entered changes.
 
+.. index:: In Service Training Management
+
 In Service Training Management
 ==============================
 
@@ -205,11 +219,15 @@ In Service Training Management
 
  .. centered:: **fig 17: In service training information of a record**
 
+.. index:: Organization Units Management
+
 Organization Units Management
 =============================
 
  This section of the system has four main parts: Organization Units, orgUnits Groups, OrgUnits group
  sets and Generate Structure.
+
+.. index:: Organization Units
 
 Organization Units
 ------------------
@@ -252,6 +270,8 @@ Organization Units
 
  .. centered:: **fig 20: Form for editing organization unit details**
 
+.. index:: Organization Units Groups
+
 Organization Units Groups
 -------------------------
 
@@ -275,6 +295,8 @@ Organization Units Groups
     :align:   center
 
  .. centered:: **fig 22:  Editing organization unit group details.**
+
+.. index:: Organization Units Groups Sets
 
 Organization Units Groups Sets
 ------------------------------

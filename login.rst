@@ -1,5 +1,7 @@
 .. _login:
 
+.. index:: loging in 
+
 ***************
 Login
 ***************
