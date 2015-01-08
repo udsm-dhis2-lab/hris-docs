@@ -10,7 +10,7 @@ Welcome to Human Resource Information System's documentation!
 Quick Tour
 ==========
 
-Get started fast with the **HRIS** 
+Get started fast with the **HRIS**  
 
     .. toctree::
        :maxdepth: 3
@@ -29,22 +29,21 @@ Notes on Installation of **HRIS**
 
        Notes on Installation of HRIS<installation>
 
+
 User Manual
-===========
+=====================
 
     .. toctree::
        :maxdepth: 3
        :numbered:
 
-       What is HRIS<introduction>
+       Introduction<introduction>
 
-       Getting Started With HRIS<getstarted>
+       Description of the system<user>
 
-       System Description<systemDescription>
+       Data management<datamanagement>
 
-       Reports<report>
-
-       Import And Export<import_export>
+       Reports<report>       
 
 
 Administrators Manual
@@ -65,6 +64,7 @@ Administrators Manual
        Import And Export<import_export>
 
        Toubleshooting<troubleshooting>
+
 
 Developers Documentation
 ========================
