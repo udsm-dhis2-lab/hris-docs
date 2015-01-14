@@ -39,11 +39,11 @@ User Manual
 
        Introduction<introduction>
 
-       Description of the system<user>
+       Description of the system<description>
 
-       Data management<datamanagement>
+       Data Management<datamanage>
 
-       Reports<report>       
+       Report<report>   
 
 
 Administrators Manual
