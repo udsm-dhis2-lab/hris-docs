@@ -55,15 +55,15 @@ Administrators Manual
 
        What is HRIS<introduction>
 
-       User Administration<user>
+       User Module<users>
 
-       System Description<systemDescription>
+       Form Management<formmanage>
 
-       Reports<report>
+       Target Module<target>
 
-       Import And Export<import_export>
+       Orgunit Module<orgunitmodule>
 
-       Toubleshooting<troubleshooting>
+       
 
 
 Developers Documentation
