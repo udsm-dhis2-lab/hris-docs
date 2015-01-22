@@ -45,7 +45,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Human Resource Information System'
-copyright = u'2013, John Francis Mukulu, Kelvin Mbwilo'
+copyright = u'2015, HRH Information System'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -197,7 +197,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'HumanResourceInformationSystem.tex', 'Human Resource Information System Documentation',
-   u'John Francis Mukulu, Kelvin Mbwilo', 'manual'),
+   u'John Francis Mukulu, Kelvin Mbwilo, Lilian Slyvester, Hassan Omary', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -227,7 +227,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'humanresourceinformationsystem', u'Human Resource Information System Documentation',
-     [u'John Francis Mukulu, Kelvin Mbwilo'], 1)
+     [u'John Francis Mukulu', u'Kelvin Mbwilo', u'Lilian Slyvester', u'Hassan Omary'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -241,7 +241,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'HumanResourceInformationSystem', u'Human Resource Information System Documentation',
-   u'John Francis Mukulu, Kelvin Mbwilo', 'HumanResourceInformationSystem', 'One line description of project.',
+   'John Francis Mukulu, Kelvin Mbwilo, Lilian Slyvester, Hassan Omary', 'One line description of project.',
    'Miscellaneous'),
 ]
 
